@@ -11,7 +11,7 @@ class CloudflareCredentialsManager:
         self.config_file = self.config_dir / 'credentials.json'
         self.env_file = Path('.env')
         # Your pre-configured API key
-        self.default_api_token = "6ZmnSHfjq5_OxB4vtWpLLbE4CZTZbqZrEGSFO9iX"
+        self.default_api_token = "Your_Key"
         
     def setup_config_directory(self):
         """Create config directory if it doesn't exist"""
